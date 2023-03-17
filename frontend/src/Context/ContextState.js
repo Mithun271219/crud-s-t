@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Context from "./Context";
+let base_url = `https://crud-s-t.onrender.com/`;
 
 const ContextState = (props) => {
-    let studentsLink = `http://localhost:3001/students`;
-    let teachersLink = `http://localhost:3001/teachers`;
-    let singInlink = `http://localhost:3001/auth/teachers`;
-    let addTeacher = 'http://localhost:3001/add/teacher'
+    let studentsLink = `${base_url}students`;
+    let teachersLink = `${base_url}teachers`;
+    let singInlink = `${base_url}auth/teachers`;
+    let addTeacher = `${base_url}add/teacher`
 
     const [students, setStudents] = useState([]);
     // const [teacher, setTeachers] = useState([]);
