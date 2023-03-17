@@ -14,10 +14,10 @@ function SingIn() {
 
     let [message, setMessage] = useState('');
 
-    let [initialValues, setinitialValues] = useState({
+    let initialValues = {
         email: '',
         password: ''
-    })
+    }
 
     let { values, errors, touched, handleBlur, handleChange, handleSubmit } = useFormik({
         initialValues,
