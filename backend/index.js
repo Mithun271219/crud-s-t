@@ -29,7 +29,7 @@ const pageNotFount = require('./routes/pnf.route');
         //   requested resource.
 
         app.use(function (req, res, next) {
-            res.header("Access-Control-Allow-Origin", "https://64144fd16423e50370aee77a--illustrious-kelpie-3df561.netlify.app");
+            res.header("Access-Control-Allow-Origin", "https://illustrious-kelpie-3df561.netlify.app");
             res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
             next();
