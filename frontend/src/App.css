@@ -1,0 +1,17 @@
+#tebaletext {
+    text-align: center;
+}
+
+.card-img-top {
+    width: auto;
+    height: 350px;
+    border-radius: 2%;
+}
+
+.card-text {
+    text-indent: 50px;
+}
+
+/* * {
+    border: 1px solid red;
+} */
